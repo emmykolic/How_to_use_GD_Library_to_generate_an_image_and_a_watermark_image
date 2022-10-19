@@ -1,0 +1,66 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+div.form{
+	display: block;
+}
+
+form{
+	margin-top: 40px;
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px;
+	background-color: ;
+	box-shadow: 5px 5px 10px 10px lightgray;
+}
+
+p{
+	font-size: 18px;
+	color: black;
+}
+
+input{
+	padding: 10px;
+	margin: 5px;
+}
+
+.files{
+	padding: 10px;
+	margin: 5px;
+	/*color: black;*/
+}
+
+.btn{
+	padding: 10px;
+	width: 100%;
+	border: 0;
+	border-radius: 20px;
+}
+.btns{
+	padding: 10px;
+	box
+	min-width: 20%;
+	margin: 5px;
+	background-color: red;
+	border: 0;
+	color: white;
+	text-decoration: none;
+	border-radius: 20px;
+	box-shadow: 5px 5px lightgray;
+
+	position: absolute;
+	right:    0;
+	bottom:   0;
+}
+
+.btn:hover{
+	background-color: black;
+	color: white;
+	transform: scale(0.9);
+	transition: 2s;
+}
